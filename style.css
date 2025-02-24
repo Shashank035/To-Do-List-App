@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to bottom right, #33ccff, #ff99cc);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#taskInput {
+    width: 50%;
+    height: 30px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+#addTaskBtn {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#addTaskBtn:hover {
+    background-color: #3e8e41;
+}
+
+#taskList {
+    list-style-type: decimal; /* Use decimal numbers for ordered list */
+    padding-left: 20px; /* Add padding to align with input */
+    margin-top: 20px; /* Add margin from the top */
+}
+
+#taskList li {
+    width: 50%;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    background-color: #ccc;
+}
+
+button {
+    float: right;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e91e63;
+}
